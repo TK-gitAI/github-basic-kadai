@@ -1,0 +1,33 @@
+kuuta@たくま MINGW64 ~
+$ cd github
+
+kuuta@たくま MINGW64 ~/github
+$ mkdir git_challenge
+
+kuuta@たくま MINGW64 ~/github
+$ cd git_challenge
+
+kuuta@たくま MINGW64 ~/github/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/kuuta/github/git_challenge/.git/
+
+kuuta@たくま MINGW64 ~/github/git_challenge (main)
+$ echo "Hello,world!" > hello_world.txt
+
+
+kuuta@たくま MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+
+
+kuuta@たくま MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+git commit -m "Add hello_world.txt"
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+[main 8ccce23] Add hello_world.txt
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+
+kuuta@たくま MINGW64 ~/git_challenge (main)
+$ git log  --oneline
+8ccce23 (HEAD -> main) Add hello_world.txt
+b136811 Add hello_world.txt
