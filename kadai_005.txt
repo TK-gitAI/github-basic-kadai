@@ -1,0 +1,39 @@
+
+kuuta@たくま MINGW64 /
+$ cd
+
+kuuta@たくま MINGW64 ~
+$ cd github
+
+kuuta@たくま MINGW64 ~/github
+$ mkdir git_challenge
+
+kuuta@たくま MINGW64 ~/github
+$ cd git_challenge
+
+kuuta@たくま MINGW64 ~/github/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/kuuta/github/git_challenge/.git/
+
+kuuta@たくま MINGW64 ~/github/git_challenge (main)
+$ git add hello_world.txt
+
+kuuta@たくま MINGW64 ~/github/git_challenge (main)
+$ git commit -m "一回目"
+[main (root-commit) 3ac64e0] 一回目
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+
+kuuta@たくま MINGW64 ~/github/git_challenge (main)
+$ git add hello_world.txt
+
+kuuta@たくま MINGW64 ~/github/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main c5d67d3] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+
+kuuta@たくま MINGW64 ~/github/git_challenge (main)
+$ git log --oneline
+c5d67d3 (HEAD -> main) 日本語訳を追記
+3ac64e0 一回目
+
